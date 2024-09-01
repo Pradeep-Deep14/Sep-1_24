@@ -1,4 +1,4 @@
-nested_list=[[1,2],3,[3,4,5],7,6,[5,6,7]]
+nested_list=[1,[1,2],3,[3,4,5],7,6,[5,6,7]]
 
 def flattened_list(nested_list):
     Flattened=[]
@@ -13,3 +13,5 @@ def flattened_list(nested_list):
     return Flattened
 
 print(flattened_list(nested_list))
+
+#Nested to Flattened and remove duplicates
